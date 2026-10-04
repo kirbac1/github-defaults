@@ -1,0 +1,6 @@
+.terraform/
+# State holds the provider's view of every repository; it stays on the machine
+# that applies, never in git.
+*.tfstate
+*.tfstate.*
+crash.log
